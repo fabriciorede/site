@@ -1,0 +1,85 @@
+/* Formatação Geral da Página de Contato*/
+* {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+/* Formatação do Título da Página de Contato*/
+h1 {
+    font-size: 350%;
+}
+
+/* Formatação do Corpo da Página de Contato*/
+body {
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+    background-color: rgb(240, 240, 240);
+}
+
+/* Formatação do Label do Formulário da Página de Contato*/
+label {
+    font-weight:bold;
+}
+
+/* Formatação do Contêiner da Página de Contato */
+.conteiner {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 100%;
+}
+
+/* Formatação do Contêiner do Formulário da Página de Contato */
+.conteiner_formulario {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 5% 10% 10% 10%;
+    background-color: white;
+}
+
+/* Formatação do Cabeçalho da Página de Contato */
+header.cabecalho {
+    text-align: center;
+    margin: 5% 0% 10% 0%;
+}
+
+/* Formatação do Parágrafo do Cabeçalho da Página de Contato */
+.cabecalho p {
+    text-align:left;
+}
+
+/* Formatação da Div do Fomulário da Página de Contato */
+.formulario div {
+    margin: 0% 0% 3% 0%;
+}
+
+/* Formatação do Input do Fomulário da Página de Contato */
+.formulario input {
+    width: 40%;
+}
+
+/* Formatação do Lebel da Textarea do Fomulário da Página de Contato */
+#mensagem {
+    display: block;
+    margin: 0% 0% 1% 0%;
+}
+
+/* Formatação do Botão da Página */
+button{
+    border: none;
+    padding: 1% 3%;
+    color: black;
+    background-color: rgb(190, 190, 190);
+}
+
+/* Formatação do Apontador ao Sobrepor o Botão da Página */
+.botao:hover {
+    background-color: rgb(210, 210, 210);    
+}
+
+/* Formatação do Apontador ao Ativar o Botão da Página */
+.botao:active {
+    background-color: rgb(170, 170, 170);    
+}

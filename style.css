@@ -1,0 +1,186 @@
+/* Formatação Geral da Página */
+* {
+    box-sizing: border-box;
+}
+
+/* Formatação do Título da Página */
+h2 {
+    font-size: 200%;
+}
+
+/* Formatação do Corpo da Página */
+body {
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+}
+
+/* Formatação de Contêiner */
+.conteiner {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 25% 10% 15% 40%;
+}
+
+/* Formatação da Lista do Menu Principal */
+nav.menu_principal ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    float: left;
+    position: fixed;
+    width: 20%;
+    height: 5%;
+    top: 0%;
+    left: 80%;
+    border-bottom-width: 1.5%;
+    border-bottom-color: rgb(220, 220, 220);
+    border-bottom-style: solid;
+    background-color: rgb(240, 240, 240);
+}
+
+/* Formatação dos Itens da Lista do Menu Principal */
+nav.menu_principal ul li {
+    display: inline;
+}
+
+/* Formatação dos Links do Menu Principal */
+nav.menu_principal ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 3.35% 1%;
+    color: black;
+}
+
+/* Formatação do Perfil */
+.perfil {
+    position: fixed;
+    width: 20%;
+    height: 60%;
+    top: 5%;
+    left: 80%;
+    padding: 3% 2% 2% 2%;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+}
+
+/* Formatação do Texto do Perfil */
+.perfil p {
+    text-align: left;
+    font-size: 80%;
+}
+
+/* Formatação do Div do Texto do Perfil */
+.perfil div {
+    padding: 12% 0% 0% 0%;
+}
+
+/* Formatação da Imagem do Perfil */
+.perfil img {
+    max-height: 350px;
+    width: 60%;
+    border-radius: 50%;
+}
+
+/* Formatação do Rodapé do Perfil */
+.rodape {
+    position: fixed;
+    width: 20%;
+    height: 35%;
+    bottom: 0%;
+    left: 80%;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+}
+
+/* Formatação do Contêiner Sobre Mim */
+#sobre_mim {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 2.5% 8% 2.5% 8%;
+}
+
+/* Formatação do Parágrafo do Contêiner Sobre Mim */
+#sobre_mim p {
+    text-align: justify;
+}
+
+/* Formatação do Título Nível 1 do Contêiner Sobre Mim */
+#sobre_mim h1 {
+    font-size: 350%;
+    text-align: center;
+    padding: 0% 0% 2.5% 0%;
+}
+
+#formacao {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 2.5% 8% 2.5% 8%;
+}
+
+/* Formatação do Contêiner Experiência */
+#experiencia {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 2.5% 8% 2.5% 8%;
+}
+
+/* Formatação do Contêiner Portfólio */
+#portfolio {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding: 2.5% 8% 2.5% 8%;
+    text-align: center;
+}
+
+/* Formatação da Imagem do Portfólio */
+#portfolio img {
+    border: none;
+    width: 28%;
+    margin: 2%;
+}
+
+/* Formatação do Seletor ao Sobrepor Imagem do Portfólio */
+#portfolio img:hover {
+    width: 29%;
+    margin: 2.5%;
+}
+
+/* Formatação do Botão Geral do Site */
+button{
+    border: none;
+    padding: 3% 6%;
+    color: black;
+    background-color: rgb(190, 190, 190);
+}
+
+/* Formatação do Apontador ao Sobrepor o Botão do Site */
+.botao:hover {
+    background-color: rgb(210, 210, 210);    
+}
+
+/* Formatação do Apontador ao Ativar o Botão do Site */
+.botao:active {
+    background-color: rgb(170, 170, 170);    
+}
+
+/* Formatação do Botão de Voltar ao Topo */
+.botao_topo img {
+    position: fixed;
+    width: 2.7%;
+    left: 95%;
+    bottom: 5%;
+}
+
+/* Formatação do Apontador ao Sobrepor o Botão de Voltar ao Topo */
+.botao_topo:hover img {
+    width: 3%;
+}
